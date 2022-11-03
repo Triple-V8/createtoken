@@ -1,7 +1,7 @@
-import { BigNumber, Contract, providers, utils } from "ethers";
+import { BigNumber, Contract, providers, utils } from "Ethers";
 import Head from "next/head.js";
 import React, { useEffect, useRef, useState } from "react";
-import Web3Modal from "web3modal";
+import Web3Modal from "Web3modal";
 import {
   NFT_CONTRACT_ABI,
   NFT_CONTRACT_ADDRESS,
