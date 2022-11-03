@@ -1,5 +1,5 @@
 import { BigNumber, Contract, providers, utils } from "ethers";
-import Head from "next/head";
+import Head from "next/head.js";
 import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
 import {
@@ -7,7 +7,7 @@ import {
   NFT_CONTRACT_ADDRESS,
   TOKEN_CONTRACT_ABI,
   TOKEN_CONTRACT_ADDRESS,
-} from "../constants";
+} from "../constants/index.js";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
