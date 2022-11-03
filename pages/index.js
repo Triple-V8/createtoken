@@ -355,7 +355,7 @@ export default function Home() {
             type="number"
             placeholder="Amount of Tokens"
             // BigNumber.from converts the `e.target.value` to a BigNumber
-            onChange={(e) => setTokenAmount(BigNumber.from(e.target.value))}
+            onChange={(e) => setTokenAmount(BigNumber.from(String(e.target.value)))}
             className={styles.input}
           />
         </div>
